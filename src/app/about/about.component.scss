@@ -1,0 +1,18 @@
+div{
+    height: 77vh;
+    width: 100vw;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    h2{
+        padding: 2vh;
+    }
+    p{
+        width: 20vw;
+    }
+}

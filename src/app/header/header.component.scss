@@ -1,0 +1,31 @@
+div{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    h1{
+        font-size: 3em;
+        font-family: GreatVibes;
+    }
+    li{
+        text-decoration: none;
+        list-style-type: none;
+        transition: all 1s ease;
+        display: flex ;
+        gap: 1em; 
+        :hover{
+            cursor: pointer;
+            color: #2d807c;
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+            font-family: Montserrat;
+            font-size: 1em;
+        }
+    }
+}
